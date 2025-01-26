@@ -1,0 +1,49 @@
+# Created by https://www.gitignore.io
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+
+.cache
+
+### Django ###
+*.log
+*.pyc
+local_settings.py
+
+venv/
+.env
+.environment
+static/
+
+# vscode
+.vscode/
+
+master.key
+
+# testing
+/coverage
+
+/.idea
+
+# docker compose databases storages
+/storage/
